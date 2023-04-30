@@ -1,7 +1,9 @@
 <template>
   <!-- <img alt="Logo" src="./assets/HiTwitch.png" style="width: 15%; height: auto;"> -->
   <NavBar/>
+  <transition name="fade">
   <RouterView></RouterView>
+  </transition>
 </template>
 
 <script>
@@ -35,8 +37,19 @@ export default {
   margin: 0;
   box-sizing: 0;
 }
+
 #app {
   font-family: 'Comfortaa', cursive;
   color: rgb(228, 228, 228);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 1.0s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>
