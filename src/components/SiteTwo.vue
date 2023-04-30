@@ -18,7 +18,7 @@ export default {
 .container {
   height: 100vh;
   width: 100%;
-  background: red;
+  background: greenyellow;
   display: flex;
   justify-content: center;
   align-items: center;

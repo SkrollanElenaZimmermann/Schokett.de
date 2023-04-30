@@ -1,17 +1,19 @@
 <template>
-  <img alt="Logo" src="./assets/HiTwitch.png" style="width: 15%; height: auto;">
+  <!-- <img alt="Logo" src="./assets/HiTwitch.png" style="width: 15%; height: auto;"> -->
+  <NavBar/>
   <SiteOne/>
   <SiteTwo/>
   <SiteThree/>
 </template>
 
 <script>
+import NavBar from './components/NavBar.vue'
 import SiteOne from './components/SiteOne.vue'
 import SiteTwo from './components/SiteTwo.vue'
 import SiteThree from './components/SiteThree.vue'
 
 import myBackground from '@/assets/background.jpg';
-import HiTwitch from '@/assets/HiTwitch.png';
+// import HiTwitch from '@/assets/HiTwitch.png';
 
 export default {
   name: 'App',
@@ -19,10 +21,11 @@ export default {
     SiteOne,
     SiteTwo,
     SiteThree,
+    NavBar,
   },
   data() {
     return {
-      imageHiTwitch: HiTwitch
+      // imageHiTwitch: HiTwitch
     }
   },
   mounted() {
@@ -35,6 +38,11 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
 #app {
   font-family: 'Comfortaa', cursive;
   color: rgb(228, 228, 228);
