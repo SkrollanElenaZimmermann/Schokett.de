@@ -7,6 +7,10 @@
 <script>
 export default {
   name: 'SiteOne',
+  mounted() {
+    document.title = "SchokettOne";
+   
+  },
   props: {
     
   }

@@ -23,6 +23,7 @@ export default {
     }
   },
   mounted() {
+    document.title = "Schokett";
     document.body.style.backgroundColor = '#16a085';
     document.body.style.backgroundImage = `url(${myBackground})`;
   }

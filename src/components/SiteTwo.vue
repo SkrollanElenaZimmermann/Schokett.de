@@ -7,6 +7,9 @@
 <script>
 export default {
   name: 'SiteTwo',
+  mounted() {
+    document.title = "Schokett/Two";
+  },
   props: {
     
   }
