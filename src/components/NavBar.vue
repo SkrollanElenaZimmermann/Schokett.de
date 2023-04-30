@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
-    <div class="logo">
-      Logo
+    <div class="NameSite">
+      Schokett
     </div>
     <div class="nav_buttons">
       <div class="btn"><router-link to="/">SiteOne</router-link></div>
@@ -28,7 +28,7 @@ export default {
  align-items: center;
  font-size: 20px;
 }
-.navbar .logo {
+.navbar .NameSite {
   padding: 20px 10px;
 }
 .navbar .nav_buttons {
