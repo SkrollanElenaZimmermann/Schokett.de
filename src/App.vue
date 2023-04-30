@@ -1,10 +1,14 @@
 <template>
   <img alt="Logo" src="./assets/HiTwitch.png" style="width: 15%; height: auto;">
-  <HelloWorld/>
+  <SiteOne/>
+  <SiteTwo/>
+  <SiteThree/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SiteOne from './components/SiteOne.vue'
+import SiteTwo from './components/SiteTwo.vue'
+import SiteThree from './components/SiteThree.vue'
 
 import myBackground from '@/assets/background.jpg';
 import HiTwitch from '@/assets/HiTwitch.png';
@@ -12,7 +16,9 @@ import HiTwitch from '@/assets/HiTwitch.png';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SiteOne,
+    SiteTwo,
+    SiteThree,
   },
   data() {
     return {
@@ -31,8 +37,6 @@ export default {
 
 #app {
   font-family: 'Comfortaa', cursive;
-  text-align: center;
   color: rgb(228, 228, 228);
-  margin-top: 60px;
 }
 </style>
