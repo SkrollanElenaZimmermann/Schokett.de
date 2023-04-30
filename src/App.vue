@@ -1,16 +1,11 @@
 <template>
   <!-- <img alt="Logo" src="./assets/HiTwitch.png" style="width: 15%; height: auto;"> -->
   <NavBar/>
-  <SiteOne/>
-  <SiteTwo/>
-  <SiteThree/>
+  <RouterView></RouterView>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
-import SiteOne from './components/SiteOne.vue'
-import SiteTwo from './components/SiteTwo.vue'
-import SiteThree from './components/SiteThree.vue'
 
 import myBackground from '@/assets/background.jpg';
 // import HiTwitch from '@/assets/HiTwitch.png';
@@ -18,9 +13,6 @@ import myBackground from '@/assets/background.jpg';
 export default {
   name: 'App',
   components: {
-    SiteOne,
-    SiteTwo,
-    SiteThree,
     NavBar,
   },
   data() {

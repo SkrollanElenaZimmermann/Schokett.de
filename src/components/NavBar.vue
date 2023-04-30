@@ -4,9 +4,9 @@
       Logo
     </div>
     <div class="nav_buttons">
-      <div class="btn">SiteOne</div>
-      <div class="btn">SiteTwo</div>
-      <div class="btn">SiteThree</div>
+      <div class="btn"><router-link to="/">SiteOne</router-link></div>
+      <div class="btn"><router-link to="/SiteTwo">SiteTwo</router-link></div>
+      <div class="btn"><router-link to="/SiteThree">SiteThree</router-link></div>
     </div>
   </div>
 </template>
