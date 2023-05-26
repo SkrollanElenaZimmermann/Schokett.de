@@ -6,7 +6,7 @@ module.exports = defineConfig({
   configureWebpack: {
     plugins: [
       new FaviconsWebpackPlugin({
-        logo: './public/mepc.ico',
+        logo: './public/3.ico',
         favicons: {
           appName: 'Schokett.de',
           appDescription: 'ProjectVue',
