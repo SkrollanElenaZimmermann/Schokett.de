@@ -7,6 +7,7 @@
       <div class="btn"><router-link to="/">SiteOne</router-link></div>
       <div class="btn"><router-link to="/SiteTwo">SiteTwo</router-link></div>
       <div class="btn"><router-link to="/SiteThree">SiteThree</router-link></div>
+      <div class="btn"><router-link to="/ImpressumPage">ImpressumPage</router-link></div>
     </div>
   </div>
 </template>
