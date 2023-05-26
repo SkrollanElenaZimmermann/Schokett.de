@@ -5,6 +5,8 @@
 </template>
 
 <script>
+
+
 export default {
   name: 'SiteOne',
   mounted() {
@@ -22,11 +24,12 @@ export default {
 .container {
   height: 100vh;
   width: 100%;
-  background: red;
+  /* background: rgb(255, 47, 144); */
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 400%;
   color: white;
 }
+
 </style>

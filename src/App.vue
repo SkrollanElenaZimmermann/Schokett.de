@@ -10,7 +10,7 @@
 import NavBar from './components/NavBar.vue'
 
 import myBackground from '@/assets/background.jpg';
-// import HiTwitch from '@/assets/HiTwitch.png';
+
 
 export default {
   name: 'App',
@@ -26,6 +26,9 @@ export default {
     document.title = "Schokett";
     document.body.style.backgroundColor = '#16a085';
     document.body.style.backgroundImage = `url(${myBackground})`;
+    document.body.style.backgroundSize = 'cover';
+    document.body.style.backgroundPosition = 'center center';
+    document.body.style.backgroundRepeat = 'no-repeat';
   }
 }
 </script>
@@ -53,4 +56,5 @@ export default {
 .fade-leave-to {
   opacity: 0;
 }
+
 </style>

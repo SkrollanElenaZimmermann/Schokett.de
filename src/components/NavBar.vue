@@ -20,7 +20,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .navbar {
  display: flex;
@@ -43,9 +42,21 @@ export default {
   text-decoration: none;
 }
 .active {
-  color: rgb(0, 255, 200) !important;
+  color: rgb(193, 255, 245) !important;
   background-color: rgb(155, 155, 155) !important;
-  box-shadow: 1px 2px rgb(0, 255, 200) !important;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5) !important;
 }
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar .nav_buttons {
+    margin-top: 20px;
+  }
+}
+
 
 </style>
