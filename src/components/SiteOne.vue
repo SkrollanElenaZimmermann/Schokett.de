@@ -10,7 +10,7 @@
 export default {
   name: 'SiteOne',
   mounted() {
-    document.title = "SchokettOne";
+    document.title = "Schokett/One";
    
   },
   props: {
