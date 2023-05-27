@@ -3,21 +3,26 @@
     <div class="impressum">
 
   <h2>{{ $t('impressum.title') }}</h2>
-
+  <br>
   <h3 v-html="$t('impressum.angaben')"></h3>
   <p>{{ $t('impressum.content.angaben') }}</p>
-  
+  <br>
   <h3 v-html="$t('impressum.kontakt')"></h3>
   <p>{{ $t('impressum.content.kontakt') }}</p>
-
+  <br>
   <h3 v-html="$t('impressum.umsatzsteuerID')"></h3>
   <p>{{ $t('impressum.content.umsatzsteuerID') }}</p>
-
+  <br>
   <h3 v-html="$t('impressum.verantwortlich')"></h3>
   <p>{{ $t('impressum.content.verantwortlich') }}</p>
-
+  <br>
   <h3 v-html="$t('impressum.haftungsausschluss')"></h3>
   <p>{{ $t('impressum.content.haftungsausschluss') }}</p>
+  <br>
+  <br>
+  <br>
+  <h3 v-html="$t('impressum.copyright')"></h3>
+  <p>{{ $t('impressum.content.copyright') }}</p>
   
       <div class="language-switch">
         <label>
