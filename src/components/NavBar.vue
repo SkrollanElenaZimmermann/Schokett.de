@@ -1,11 +1,11 @@
 <template>
   <div class="navbar">
     <div class="NameSite">
-      Schokett
+      <router-link to="/HomePage">Schokett</router-link>
     </div>
     <div class="nav_buttons">
-      <div class="btn" :class="{ active: $route.path === '/' }">
-        <router-link to="/">SiteOne</router-link>
+      <div class="btn" :class="{ active: $route.path === '/SiteOne' }">
+        <router-link to="/SiteOne">SiteOne</router-link>
       </div>
       <div class="btn" :class="{ active: $route.path === '/SiteTwo' }">
         <router-link to="/SiteTwo">SiteTwo</router-link>
@@ -36,6 +36,11 @@ export default {
 }
 .navbar .NameSite {
   padding: 20px 10px;
+  display: flex;
+}
+.navbar .NameSite a {
+  text-decoration: none;
+  color: white;
 }
 .navbar .nav_buttons {
   display: flex;

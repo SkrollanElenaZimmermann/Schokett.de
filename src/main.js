@@ -2,6 +2,7 @@ import { createApp } from 'vue';
 import { createRouter, createWebHashHistory} from 'vue-router';
 import { createI18n } from 'vue-i18n';
 import App from './App.vue';
+import HomePage from './components/HomePage.vue';
 import SiteOne from './components/SiteOne.vue';
 import SiteTwo from './components/SiteTwo.vue';
 import SiteThree from './components/SiteThree.vue';
@@ -14,7 +15,8 @@ const app = createApp(App);
 const router = createRouter({
   history: createWebHashHistory(),
   routes: [
-    { path: '/', component: SiteOne },
+    { path: '/HomePage', component: HomePage },
+    { path: '/SiteOne', component: SiteOne },
     { path: '/SiteTwo', component: SiteTwo },
     { path: '/SiteThree', component: SiteThree },
     { path: '/ImpressumPage', component: ImpressumPage },
