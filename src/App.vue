@@ -1,5 +1,4 @@
 <template>
-  <!-- <img alt="Logo" src="./assets/HiTwitch.png" style="width: 15%; height: auto;"> -->
   <NavBar/>
   <transition name="fade">
   <RouterView></RouterView>
