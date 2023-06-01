@@ -5,16 +5,16 @@
     </div>
     <div class="nav_buttons">
       <div class="btn" :class="{ active: $route.path === '/SiteOne' }">
-        <router-link to="/SiteOne">SiteOne</router-link>
+        <router-link to="/SiteOne">{{ $t('navbar.siteone') }}</router-link>
       </div>
       <div class="btn" :class="{ active: $route.path === '/SiteTwo' }">
-        <router-link to="/SiteTwo">SiteTwo</router-link>
+        <router-link to="/SiteTwo">{{ $t('navbar.sitetwo') }}</router-link>
       </div>
       <div class="btn" :class="{ active: $route.path === '/SiteThree' }">
-        <router-link to="/SiteThree">SiteThree</router-link>
+        <router-link to="/SiteThree">{{ $t('navbar.sitethree') }}</router-link>
       </div>
       <div class="btn" :class="{ active: $route.path === '/ImpressumPage' }">
-        <router-link to="/ImpressumPage">Impressum</router-link>
+        <router-link to="/ImpressumPage">{{ $t('navbar.impressum') }}</router-link>
       </div>
     </div>
     </div>
@@ -29,10 +29,10 @@ export default {
 
 <style scoped>
 .navbar {
- display: flex;
- justify-content: space-between;
- align-items: center;
- font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
 }
 .navbar .NameSite {
   padding: 20px 10px;
@@ -48,15 +48,14 @@ export default {
 .navbar .nav_buttons a {
   background-color: rgb(122, 122, 122);
   color: white;
-  padding: 10px 20px;
+  padding: 10px 20px; /* Hier Padding wieder aktivieren */
   margin: 0 10px;
   cursor: pointer;
   text-decoration: none;
 }
 
-.active {
+.navbar .nav_buttons .active {
   color: rgb(255, 255, 255) !important;
-  padding: 10px 10px;
   background-color: rgb(155, 155, 155) !important;
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.5) !important;
 }

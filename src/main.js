@@ -29,6 +29,18 @@ const i18n = createI18n({
   messages: {
     de: {
       // Deutsch
+      navbar: {
+        siteone: 'Seite Eins',
+        sitetwo: 'Seite Zwei',
+        sitethree: 'Seite Drei',
+        impressum: 'Impressum',
+      },
+      footer: {
+        kontakt: 'Kontakt',
+        socialmedia: 'Social Media',
+        quicklinks: 'Quick Links',
+      },
+
       impressum: {
         title: 'Impressum',
         copyright: 'Copyright:',
@@ -76,6 +88,17 @@ const i18n = createI18n({
     },
     ja: {
       // Japanisch
+      navbar: {
+        siteone: '1ページ目',
+        sitetwo: '2ページ目',
+        sitethree: '3ページ目',
+        impressum: '運営者情報',
+      },
+      footer: {
+        kontakt: 'お問い合わせ',
+        socialmedia: 'ソーシャルメディア',
+        quicklinks: 'クイックリンク',
+      },
       impressum: {
         title: 'インプレッサム',
         copyright: '著作権:',
