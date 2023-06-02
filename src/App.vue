@@ -16,6 +16,7 @@
   <transition name="fade">
   <RouterView></RouterView>
   </transition>
+  
   <footer class="footer">
       <div class="container">
         <div class="footer-columns">
